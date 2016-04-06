@@ -5,3 +5,14 @@ img{
 	position: absolute;
 	text-align: center;
 }
+.fondo{
+  background-image: url("img/background/hero.jpg") no-repeat;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.37);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+
+}
