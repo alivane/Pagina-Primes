@@ -96,6 +96,20 @@ h1{
   height: 50px;
   padding-top: 10px;
 }
+#iconos{
+  color: #3FA48E;
+  font-size: 40px;
+  }
+  #iconos2{
+  color: #3FA48E;
+  font-size: 30px;
+  margin-left: -40px;
+  }
+#textos{
+  text-align: center;
+  padding:50px;
+  background-color: white;
+}
 #gray{
   background-color: #DFE3E4;
   padding-left: 60px;
