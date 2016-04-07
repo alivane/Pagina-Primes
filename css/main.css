@@ -1,7 +1,28 @@
 img{
 	width: 100%;
 }
-
+.show{
+background-color: #4A7966;
+width: 100px ;
+height:40px;
+}
+.blanco{
+background-color: white;
+width: 100px;
+height:40px;
+border: 2px solid black;
+display:inline-block;
+}
+.negro{
+background-color: black;
+width: 140px ;
+height:40px;
+}
+.negro2{
+background-color: black;
+width: 90px ;
+height:30px;
+}
 .banner{
   background-image: url(../img/background/hero.jpg);
   background-size: cover;
