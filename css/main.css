@@ -1,7 +1,43 @@
 img{
 	width: 100%;
 }
-
+.show{
+background-color: #4A7966;
+width: 100px ;
+height:30px;
+color:white;
+}
+.blanco{
+  background-color: white;
+  border: 2px solid black;
+  width: 110px;
+  height: 30px;
+  display: inline-block;
+}
+.negro{
+background-color: black;
+width: 110px ;
+height:40px;
+margin-left: 400px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.top{
+  margin-top: -10px;
+}
+.negro2{
+background-color: black;
+width: 110px ;
+height:30px;
+color:grey;
+font-size: 10px;
+margin-left: 50px;
+padding-top: 5px;
+padding-right: 20px;
+}
+.plomo{
+  color:grey;
+}
 .banner{
   background-image: url(../img/background/hero.jpg);
   background-size: cover;
@@ -58,6 +94,15 @@ h1{
   border: 2px solid black;
   background-color: white;
   text-align: center;
+  height: 425px;
+}
+hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 180px;
+  margin-left: 10px;
+  border: 1px solid silver;
+
 }
 .black{
   width: 200px;
@@ -104,10 +149,12 @@ h1{
   padding-bottom: 30px;
   padding-top: 40px;
   text-align: center;
+  margin-top: 45px;
 }
 .selfi{
   border-radius: 100%;
-  width: 200px;
+  width: 180px;
+  margin-left: 100px;
 }
 .dolar{
   background-color: #DFE3E4;
@@ -117,6 +164,7 @@ h1{
   padding-bottom: 30px;
   text-align:center;
   width: 200px;
+  margin-bottom: 25px;
   height: 80px;
 }
 .hero{
