@@ -7,11 +7,42 @@ img{
   position: relative;
   height: 600px;
 }
+.boton{
+  margin-top: 70px;
+  margin-left:300px;
+
+}
+#porta{
+  border:2px solid #343A39;
+  width: 150px;
+  height: 50px;
+  background-color:#343A39;
+  padding-top:13px;
+  
+
+
+}
+#lear{
+    border:2px solid #797F7E;
+  width: 150px;
+  height: 50px;
+  background-color:#797F7E;
+  padding-top: 13px;
+
+}
+h1{
+  margin-bottom: 40px;
+}
+.prime{
+  margin-top: 30px;
+  margin-bottom: 140px;
+}
 #before{
   background-color:rgba(0,0,0, 0.37);
   position: absolute;
   height: 100%;
-
+  color: white;
+  margin-left: 2px;
 }
 #vuelo{
   color:green;
@@ -49,6 +80,7 @@ img{
   padding-right: 60px;
   padding-bottom: 30px;
   padding-top: 40px;
+  text-align: center;
 }
 .gray{
   background-color: #DFE3E4;
@@ -79,6 +111,7 @@ p{
 }
 .enlace{
   text-align: center;
+  margin-top: 30px;
 }
 #center{
   text-align: center;
@@ -104,9 +137,11 @@ h1{
 .concepto{
   text-align: center;
 }
+
 .blue{
   color:#52E5FC;
 }
+
 .redes{
   width: 40px;
   height: 40px;
@@ -118,6 +153,10 @@ a{
   text-decoration: none;
   margin-left: 20px;
   margin-top: 20px;
-  color:grey;
+  color:white;
   text-align: center;
+  font-size: 16px;
+}
+a:hover{
+  color: #8AEBE3;
 }
