@@ -1,24 +1,36 @@
 img{
 	width: 100%;
 }
-.show{
+span{
+  font-size: 25px;
+}
+#show{
 background-color: #4A7966;
 width: 100px ;
 height:30px;
 color:white;
+margin-right: 10px;
+padding-top: 5px;
 }
-.blanco{
-  background-color: white;
-  border: 2px solid black;
-  width: 110px;
-  height: 30px;
-  display: inline-block;
+#blanco{
+background-color: white;
+width: 120px ;
+height:30px;
+color:black;
+margin-right: 10px;
+padding-top: 5px;
+}
+.ban{
+  background-image:url(../img/background/contactus.jpg);
+  background-size: cover;
+  position: relative;
+  height: 600px;
 }
 .negro{
 background-color: black;
 width: 110px ;
 height:40px;
-margin-left: 400px;
+margin-left: 460px;
 margin-top: 40px;
 margin-bottom: 40px;
 }
@@ -31,12 +43,29 @@ width: 110px ;
 height:30px;
 color:grey;
 font-size: 10px;
-margin-left: 50px;
+margin-left: 70px;
 padding-top: 5px;
 padding-right: 20px;
 }
+.ciudad{
+  font-size: 25px;
+  text-align: center;
+  margin-top: 200px;
+
+}
+.ciuda{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
 .plomo{
   color:grey;
+}
+.bane{
+  background-image:url(../img/background/city.jpg);
+  background-size: cover;
+  position: relative;
+  height: 600px;
 }
 .banner{
   background-image: url(../img/background/hero.jpg);
@@ -87,11 +116,8 @@ h1{
 }
 
 .cuadro{
-  padding-left: 10px;
-  padding-right: 10x;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border: 2px solid black;
+padding: 30px;
+  border: 2px solid #DFE3E4;
   background-color: white;
   text-align: center;
   height: 425px;
@@ -99,13 +125,12 @@ h1{
 hr{
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 180px;
   margin-left: 10px;
   border: 1px solid silver;
 
 }
 .black{
-  width: 200px;
+  width: 255px;
   background-color: black;
   color: white;
   text-align:center;
@@ -114,7 +139,7 @@ hr{
 }
 
 .celes{
-  width: 200px;
+  width: 255px;
   background-color:#3BC4B8;
   color: white;
   text-align:center;
@@ -136,6 +161,68 @@ hr{
   padding:50px;
   background-color: white;
 }
+#call{
+  
+  font-size: 20px;
+  margin-left: -250px;
+  margin-right: 15px;
+}
+#location{
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: -140px;
+}
+.titulo{
+  margin-top: 40px;
+}
+.follow{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+#sociales{
+  text-align: center;
+  margin-top: 30px;
+}
+.white{
+  color:white;
+}
+.bluee{
+  background-color: #42D9D2;
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.email{
+  width: 400px;
+  height: 40px;
+  background-color: grey;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+.mensaje{
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+.white1{
+  color: white;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.us{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+h5{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
 #gray{
   background-color: #DFE3E4;
   padding-left: 60px;
@@ -143,18 +230,28 @@ hr{
   padding-bottom: 30px;
   padding-top: 40px;
   text-align: center;
+  margin-bottom: 50px;
 }
 .gray{
   background-color: #DFE3E4;
-  padding-bottom: 30px;
-  padding-top: 40px;
+  padding: 50px;
   text-align: center;
-  margin-top: 45px;
+   
+  
+}
+.grays{
+  background-color: #DFE3E4;
+  padding: 50px;
+  text-align: center;
+   margin-top: 70px;
+  
 }
 .selfi{
   border-radius: 100%;
-  width: 180px;
-  margin-left: 100px;
+  width: 100px;
+  margin-left: 490px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .dolar{
   background-color: #DFE3E4;
@@ -163,7 +260,7 @@ hr{
   padding-top: 35px;
   padding-bottom: 30px;
   text-align:center;
-  width: 200px;
+  width: 255px;
   margin-bottom: 25px;
   height: 80px;
 }
@@ -209,11 +306,21 @@ h1{
 }
 
 .redes{
-  width: 40px;
-  height: 40px;
+  width: 28px;
+  height: 30px;
   margin-left:20px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.taciti{
+  margin-top:-20px;
+  margin-bottom: 40px;
+}
+p{
+  text-align: center;
+}
+h4{
+  text-align: center;
 }
 a{
   text-decoration: none;
@@ -225,4 +332,13 @@ a{
 }
 a:hover{
   color: #8AEBE3;
+}
+#copy{
+  height: 60px;
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+}
+.what{
+  margin-top: 70px;
 }
